@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Question</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h2>Add Question</h2>
+    <form action="submit.php" method="post">
+        <label for="question">Question:</label><br>
+        <input type="text" id="question" name="question" required><br><br>
+        
+        <label for="options">Options:</label><br>
+        <input type="text" id="options" name="options[]" required><br>
+        <input type="text" id="options" name="options[]" required><br>
+        <input type="text" id="options" name="options[]" required><br>
+        <input type="text" id="options" name="options[]" required><br><br>
+        
+        <label for="correct_options">Correct Answer Options:</label><br>
+        <input type="text" id="correct_options" name="correct_options" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

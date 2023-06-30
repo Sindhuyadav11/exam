@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 10px 0;
+  }
