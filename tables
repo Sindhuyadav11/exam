@@ -1,0 +1,15 @@
+CREATE TABLE questions (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  question TEXT,
+  option1 VARCHAR(255),
+  option2 VARCHAR(255),
+  option3 VARCHAR(255),
+  option4 VARCHAR(255),
+  correct_option VARCHAR(11)
+);
+
+CREATE TABLE answered_quiz (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  question_id INT,
+  answered_options VARCHAR(11)
+);
